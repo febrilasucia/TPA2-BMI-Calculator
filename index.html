@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/tpa2/style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="judul">
+        <h1>Check your BMI</h1>
+        <p>Enter your weight and height below to check your BMI results</p>
+    </div>
+    <div id="form">
+        <table>
+            <tr>
+                <td>
+                    <label class="berat">Put your weight in here (KG)</label>
+                </td>
+            </tr>
+            <tr style="height: 50px;">
+                <td>
+                    <input type="text" class="wei" name="wei" id="wei" placeholder="60">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="tinggi">And your height in here (CM)</label>
+                </td>
+            </tr>
+            <tr style="height: 50px;">
+                <td>
+                    <input type="text" name="hei" id="hei" class="hei" placeholder="167">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="hitung()" class="button1">Calculate BMI</button>
+                </td>
+            </tr>
+            <tr style="height: 50px;"><td>
+                Your BMI <b id="bmi">...</b> which means You are <b id="ket">...</b>
+            </td></tr>
+        </table>
+        
+    </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
